@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
   }
 
+  body{
+    background-color: #15202b;
+  }
+
   /* .test {
       position: fixed;
       height: 100vh;
@@ -244,3 +248,31 @@
           transform: translateZ(1px) rotate(1turn)
       }
   } */
+
+  .error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .error h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140px;
+    text-align: center;
+    padding: 170px 0;
+    color: red;
+    letter-spacing: 2px;
+  }
+
+
+  .error h3{
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+  }
+
+  .error a{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    color: white;
+  }
