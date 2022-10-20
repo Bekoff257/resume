@@ -249,30 +249,29 @@
       }
   } */
 
-  .error{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
 
-  .error h1{
+   h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 140px;
     text-align: center;
-    padding: 170px 0;
     color: red;
     letter-spacing: 2px;
+    padding: 150px 0;
   }
 
 
-  .error h3{
+   h3{
     font-family: 'Montserrat', sans-serif;
     color: green;
+    text-align: center;
+    transform: translateY(-290%);
   }
 
-  .error a{
+   a{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-120%);
   }
