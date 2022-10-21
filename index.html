@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TSY8X7DC2J"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TSY8X7DC2J');
-</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <link rel="icon" href="alphabet-b-icon.png">
-    <script src="./bootstrap/js/bootstrap.bundle.js"></script> -->
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
 </head>
 <body>
   <!-- <div class="test">
@@ -39,9 +30,13 @@
       <span></span>
     </div>
   </div> -->
-      <nav>
-        <!-- <div class="container">
+      <!-- <nav> -->
+        <div class="container">
           <nav class="navbar bg-light fixed-top shadow-sm">
+            <div class="alert alert-warning alert-dismissible">
+              <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+              <strong>Diqqat!</strong> Bu sayt hozirda beta versiya jarayonida ishlamoqda.
+            </div>
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">
                 <img style="width: 50px; height: 50px;" src="alphabet-b-icon.png" alt="icon"></img>
@@ -66,16 +61,16 @@
                       <a class="nav-link active" href="#links">Ijtimoiy tarmoqlar</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle disabled" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Boshqa sahifalar (tez kunda)
+                      <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Boshqa sahifalar
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Blog</a></li>
-                        <li><a class="dropdown-item" href="#">Proektlar</a></li>
+                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="projects.html">Proektlar</a></li>
                         <li>
                           <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Kulgu time (tez kunda)</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -88,7 +83,81 @@
             </div>
           </nav>
 
-          <div id="demo" class="carousel slide py-5 mt-5 border-bottom" data-bs-ride="carousel">
+          <h1 class="py-5 text-center" style="margin-top: 50px;">
+            Salom, xush kelibsiz!
+          </h1>
+
+          <p class="text-center text-muted">
+            Bu sayt B.Bekhzod ga tegishli. Bu saytda kulguli, va qiziqarli yangilik va bloglarni kuzatib borasiz
+          </p>
+
+          <h1 class="pt-4">
+            Men haqimda
+          </h1>
+
+          <p>
+            Yosh: 15 <br>
+            Ism/Familya: Bekpolatov Behzod <br>
+            Adres: Keles.sh, Oqibat.k 16 <br>
+            Nomer: +998(95) 805-33-07 <br>
+            O'rtolari: Javohir, Ahmad, Sanjar, Shukur, Rahm, Abdulla <br>
+            O'chirilgan xisob: <b class="text-danger text-decoration-line-through">Sunnat</b>
+          </p>
+
+          <h1 class="pt-4 py-4">
+            Admin tomonidan berilgan profillar
+          </h1>
+
+          <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <img class="rounded-circle" src="./images/sanjar.jpg" alt="sanjar" width="40px" height="40px">
+              <b>Sanjar</b>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill text-primary" viewBox="0 0 16 16">
+                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+              </svg>
+            </div>
+            <div class="card-body text-primary">
+              <h5 class="card-title">Sanjar Bio;</h5>
+              <p class="card-text">Ism/Familya: Turdiyev Sanjar <br>
+              Yosh: 15 <br>
+              Manzil: Massiv, Keles <br>
+              Hobby: PUBG o'ynash..
+              </p>
+            </div>
+          </div>
+
+            <div class="card border-info mb-3" style="max-width: 18rem;">
+              <div class="card-header">
+                <img class="rounded-circle" src="./images/jovohir.jpg" alt="jovo" width="40px" height="40px">
+                <b>Javohir</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-primary" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+
+              </div>
+              <div class="card-body text-info">
+                <h5 class="card-title">Javohir Bio;</h5>
+                <p class="card-text text-muted">Bu profil egasi tomonidan hech nima aytilmagan</p>
+              </div>
+            </div>
+
+            <div class="card border-danger mb-3" style="max-width: 18rem;">
+              <div class="card-header">
+                <img class="rounded-circle" src="./images/ahmad.jpg" alt="ahmad" width="40px" height="40px">
+                <b>Ahmadjon</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill text-primary" viewBox="0 0 16 16">
+                  <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                </svg>
+              </div>
+              <div class="card-body text-danger">
+                <h5 class="card-title">Ahmadjon Bio;</h5>
+                <p class="card-muted text-muted">Bu profil egasi tomonidan hech nima aytilmagan</p>
+              </div>
+            </div>
+
+          <!-- Proektlar -->
+
+          <!-- <div id="demo" class="carousel slide py-5 mt-5 border-bottom" data-bs-ride="carousel">
             <h1 class="text-dark py-sm-5 text-center text-sm-center">Proektlar <span class="badge rounded-pill bg-info">Yangi</span></h1>
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -112,9 +181,11 @@
             <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
               <span class="carousel-control-next-icon"></span>
             </button>
-          </div>
+          </div> -->
 
-          <div class="row py-4">
+          <!-- Men haqimda -->
+
+          <!-- <div class="row py-4">
             <div class="col-sm-12 border-bottom">
               <h1 class="text-center text-dark">
                 Men haqimda
@@ -142,9 +213,9 @@
                 </h4>
               </p>
             </div>
-          </div>
+          </div> -->
 
-          <h1 class="py-4 text-left text-md-center">Yangiliklar</h1>
+          <h1 class="py-4 text-left text-md-center">So'ngi Yangiliklar</h1>
 
           <div class="card mb-3">
             <img src="./images/pbg.png" class="card-img-top" alt="pubg">
@@ -199,13 +270,6 @@
               © 2022 Barcha huqular ximoyalangan. Bekhzod.cc
               <a class="text-white" href="https://bekhzod.cc.netlify.app/">bekhzod.cc</a>
             </div>
-          </footer> -->
-            <h1>
-              404
-            </h1>
-            <h3>
-              Kechirasiz. Sayt hozirda yangilanish jarayonida
-            </h3>
-            <a href="mailto:behzodbekpolatov5@gmail.com">Savollar uchun  gmail yuboring!</a>
+          </footer>
 </body>
 </html>

@@ -9,7 +9,7 @@
   }
 
   body{
-    background-color: #15202b;
+    background: #1d2a35;
   }
 
   /* .test {
@@ -248,30 +248,3 @@
           transform: translateZ(1px) rotate(1turn)
       }
   } */
-
-
-   h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 140px;
-    text-align: center;
-    color: red;
-    letter-spacing: 2px;
-    padding: 150px 0;
-  }
-
-
-   h3{
-    font-family: 'Montserrat', sans-serif;
-    color: green;
-    text-align: center;
-    transform: translateY(-290%);
-  }
-
-   a{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-120%);
-  }
